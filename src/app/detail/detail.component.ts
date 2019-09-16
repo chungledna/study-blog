@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./detail.component.scss']
 })
 export class DetailComponent implements OnInit {
+  public testData = '#Test ';
 
   constructor() { }
 
   ngOnInit() {
   }
+
 
 }

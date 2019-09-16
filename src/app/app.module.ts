@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
@@ -17,9 +18,10 @@ import { DetailComponent } from './detail/detail.component';
   imports: [
     AppRoutingModule,
     BrowserModule,
+    HttpClientModule,
     BrowserAnimationsModule,
-    MDBBootstrapModule.forRoot(),
     FormsModule,
+    MDBBootstrapModule.forRoot(),
     NgxMdModule.forRoot()
   ],
   providers: [],
